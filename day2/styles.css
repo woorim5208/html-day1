@@ -1,0 +1,38 @@
+/*-첫번쨰 챌린지-*/
+.box {
+    border: 50px solid red;
+    width: 200px;
+    padding: 50px;
+    margin-top: 20px;
+}
+.green{
+    border-color: green;
+    margin-top: 20px;
+}
+.blue{
+    border-color: blue;
+    margin-top: 20px;
+}
+
+/*-두번쨰 챌린지-*/
+.challenge2 {
+    background-color: #fff;
+    background-image:
+    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+    linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+}
+.challenge2 h1{
+    color: #9b59b6;
+}
+.h1 :before{
+    text-align: center;
+}
+.challenge2 p {
+    font-size: 16px;
+    font-family: Verdana;
+    font-style: italic;
+}
+.sub-header{
+    color:  #2980b9;
+}
