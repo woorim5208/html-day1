@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'intelone-mono-font-family-regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/intelone-mono-font-family-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+* {
+  font-family: 'intelone-mono-font-family-regular';
+}
+body {
+  background-color: #ffbed3 !important;
+}
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+  padding: 0;
+  justify-content: center;
+}
+.container-fluid {
+  background-color: #ff9fbd;
+  width: 100%;
+  height: 80px;
+}
+.carousel-item img {
+  aspect-ratio: 19 / 7;      
+  /* 비율 유지, 가로가 1900px이면 세로는 700px
+  가로가 줄어들면 세로도 자동으로 줄어들면서 비율 유지
+  이미지, 비디오, 슬라이더, 반응형에서 유동적으로 바뀌나 비율은 유지하고 싶을 때*/
+}
+/*메인 타이틀 카드 3개*/
+.main-title h1 {
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  text-align: center;
+  line-height: 60px;
+}
+.card-img-top {
+  object-fit: cover;
+  width: 100%;
+}
+.card {
+  justify-content: center;
+}
+.card-text del {
+  font-size: 16px;
+}
+.card-text strong {
+  color: rgb(189, 0, 0);
+}
+.pick .fw-bolder{
+  background-color: #fff;
+}
+.pick .fw-bolder p {
+  font-size: clamp(16px, 5vw, 32px);
+}
+/*푸터*/
+footer {
+  background-color: #ff9fbd;
+  padding: 70px 20px;
+  color: #000000;
+  margin-top: 5%;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+.column {
+  flex: 1 1 30%;
+  min-width: 250px;
+}
+.sub-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+.footer-menu-item {
+  display: block;
+  margin: 5px 0;
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.3s;
+}
+.footer-menu-item:hover {
+  color: #dedede;
+}
+/* 모바일 */
+@media (max-width: 768px) {
+.footer-menu {
+  flex-direction: column;
+}
+.column {
+  flex: 1 1 100%;
+}
+}
+
